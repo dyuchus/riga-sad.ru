@@ -77,7 +77,10 @@
 	],
 	"file_history":
 	[
+		"/C/Users/volia/AppData/Local/Temp/fz3temp-2/style.css",
+		"/C/Users/volia/Desktop/style.css",
 		"/D/local_site/riga-sad.ru/angelovo/css/style.css",
+		"/D/local_site/reference info.txt",
 		"/D/local_site/riga-sad.ru/angelovo/index_beta.html",
 		"/D/local_site/riga-sad.ru/angelovo/index.html",
 		"/C/Users/volia/Desktop/test.html",
@@ -87,7 +90,6 @@
 		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
 		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/User/goto_css_declaration.sublime-settings",
 		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/D/local_site/reference info.txt",
 		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/Sublimall/Sublimall.sublime-settings",
 		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/User/Sublimall.sublime-settings",
 		"/C/Users/volia/Desktop/style.sass",
@@ -127,6 +129,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bot2",
 			"в усадь",
 			"white",
 			"записаться на",

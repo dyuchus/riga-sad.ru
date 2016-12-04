@@ -1,12 +1,12 @@
 $(document).ready(function() {
 
-    var applyFormClickFunc = function() {
-    	yaCounter35226635.reachGoal('applyFormClick');
-    	return true;
-    };
+    // var applyFormClickFunc = function() {
+    // 	yaCounter35226635.reachGoal('applyFormClick');
+    // 	return true;
+    // };
 
     var applyFormSubmitFunc = function() {
-    	yaCounter35226635.reachGoal('applyFormSubmit');
+    	yaCounter35226635.reachGoal('formSubmit');
     	return true;
     };
 
@@ -60,7 +60,7 @@ console.log("xhr: " + xhr + "; \n ajaxOptions: " + ajaxOptions + "; \n thrownErr
 	});
 	$('#myCarousel .carousel-inner div:first').addClass('active');
 	$('.go_to').click( function(){
-		applyFormClickFunc();
+		// applyFormClickFunc();
 		var scroll_el = $(this).attr('href');
         if ($(scroll_el).length != 0) {
 	        $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500);
