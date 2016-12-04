@@ -87,9 +87,11 @@ h1,h2{font:bold 25px 'Century-Gothic';color:#ed6d05;text-align:center;}
 .menu-toggle ul{float:left; }
 .menu-toggle li{display:inline;font:15px/1.5em 'Century Gothic'; color: #ffffff; background-color:#ed6d05; border-right:1px solid #ffffff; }
 .menu-toggle li a{background-color:#76b82a; color:#ffffff;display:inline-block;border-radius: 0px!important;-webkit-border-radius: 0px!important;-moz-border-radius: 0px!important; }
+/*.menu-toggle li.neutral a {display:inline;font:15px/1.5em 'Century Gothic'; color: #ffffff; background-color:#F01C1C; border-right:5px solid #ffffff; }*/
 .menu-toggle li a:hover{color:#ed6d05;}
 .menu-toggle{padding-bottom:20px; width:100%;float:left;}
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {color:#ffffff;background-color: #ed6d05;}
+.nav-pills > li.active.neutral > a, .nav-pills > li.active.neutral > a:focus, .nav-pills > li.active.neutral > a:hover {color:#ed6d05;background-color: #eee;}
 .but {float:left; margin:0px;width:25%; max-width:650px; vertical-align:center; text-align:center;max-height:100px; background-color:#76b82a;-moz-border-radius: 10px; -webkit-border-radius:10px 10px; border:2px solid #999999;}
 .but a{color:#fff; text-decoration:none;display:inline-block;font-family:'Century-Gothic'; padding:8px; font-size:140%}
 .but a:hover{background-color:#76b82a; text-decoration:none;}
@@ -133,7 +135,7 @@ h1,h2{font:bold 25px 'Century-Gothic';color:#ed6d05;text-align:center;}
 	#myCarousel img{margin: 0px auto;}
 }
  a.bot1{
-    background:linear-gradient(to bottom, #FFFFFF, #7DC12F) #F5F5F5 repeat-x;
+    background:linear-gradient(to bottom, #FFFFFF, #7dc12f) #F5F5F5 repeat-x;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
     border-radius: 4px;
     border-style: solid;
@@ -143,16 +145,16 @@ h1,h2{font:bold 25px 'Century-Gothic';color:#ed6d05;text-align:center;}
     text-decoration:none;
     display:block;
 	position:relative; 
-	margin-left:auto;
+  margin-left:auto;
 	margin-right:auto;
     font-size: 16px;
     width:240px;
-	font-weight: bold;
+  	font-weight: bold;
     line-height: 34px;
     margin: 0px auto;
     padding: 4px 12px;
     text-align: center;
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    /*text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);*/
     vertical-align: middle;
     position: relative;
     -webkit-transition-duration: 0.3s;
@@ -188,6 +190,72 @@ a.bot1:hover {
   transform: translateY(-5px);
 }
 a.bot1:hover:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+
+ a.bot2{
+    /*background:linear-gradient(to bottom, #FFFFFF, #ed6d05) #F5F5F5 repeat-x;*/
+    background-color: #ed6d05;
+
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: white;
+    text-decoration:none;
+    display:block;
+  position:relative; 
+  /*margin-top:50px;*/
+  margin-left:auto;
+  margin-right:auto;
+    font-size: 16px;
+    width:240px;
+  /*font-weight: bold;*/
+    line-height: 34px;
+    margin: 0px auto;
+    padding: 4px 12px;
+    text-align: center;
+    /*text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);*/
+    vertical-align: middle;
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: transform;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+a.bot2:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform, opacity;
+  transition-property: transform, opacity;
+}
+a.bot2:hover {
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+a.bot2:hover:before {
   opacity: 1;
   -webkit-transform: translateY(5px);
   -ms-transform: translateY(5px);

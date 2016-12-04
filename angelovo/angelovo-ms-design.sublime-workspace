@@ -1,0 +1,287 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"none",
+				"none"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"bod",
+				"body\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 129.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 637.0
+	},
+	"console":
+	{
+		"height": 463.0,
+		"history":
+		[
+			"clear console",
+			"clear",
+			"cls",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/local_site/riga-sad.ru/angelovo",
+		"/D/local_site/riga-sad.ru/angelovo/css"
+	],
+	"file_history":
+	[
+		"/D/local_site/riga-sad.ru/angelovo/css/style.css",
+		"/D/local_site/riga-sad.ru/angelovo/index_beta.html",
+		"/D/local_site/riga-sad.ru/angelovo/index.html",
+		"/C/Users/volia/Desktop/test.html",
+		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/Goto-CSS-Declaration/Default (Windows).sublime-keymap",
+		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/User/goto_css_declaration.sublime-settings",
+		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/local_site/reference info.txt",
+		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/Sublimall/Sublimall.sublime-settings",
+		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/User/Sublimall.sublime-settings",
+		"/C/Users/volia/Desktop/style.sass",
+		"/c/users/volia/appdata/local/temp/test",
+		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/Gist/Gist.sublime-settingss",
+		"/D/local_site/riga-sad.ru/angelovo/adaptive-images.php",
+		"/D/local_site/riga-sad.ru/angelovo/.htaccess",
+		"/D/local_site/riga-sad.ru/angelovo/mail.php",
+		"/C/Users/volia/Google Диск/Работа/Детский сад/Рекламная кампания/20161203 итоги обсуждения с Директологом Вячеслав.txt",
+		"/C/Users/volia/Desktop/по итогам общения с директологом",
+		"/C/Users/volia/Desktop/картинки в хорошем качестве/еще несколько ссылок.txt",
+		"/C/Users/volia/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"style.css, index.html",
+			"style.css",
+			"*.css",
+			"*.html",
+			".html",
+			"*.css",
+			"css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"в усадь",
+			"white",
+			"записаться на",
+			"bot1",
+			"li.active",
+			"active",
+			"hover",
+			".nav",
+			"eee",
+			"#eee",
+			"ed6d05",
+			"hover",
+			"обучение",
+			"программы",
+			"active",
+			"заказать",
+			"записаться",
+			"myModal1",
+			"обратный звонок",
+			"записаться",
+			"nav",
+			"hover",
+			"call",
+			"Заказать обратный звонок",
+			"bot1",
+			"hover",
+			"звонок",
+			"заказа",
+			"id",
+			"bot1",
+			"but",
+			"^but",
+			"back",
+			"bot1",
+			"bot",
+			"active",
+			"программы",
+			"bot1",
+			"записаться",
+			"hover",
+			"world",
+			"tive",
+			"срабатывает"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"bot2",
+			"li.active.neutral"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "angelovo-ms-design.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control Messages"
+			],
+			[
+				"pac",
+				"Package Control Messages"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 420.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
